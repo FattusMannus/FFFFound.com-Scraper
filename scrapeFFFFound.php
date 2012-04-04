@@ -22,7 +22,7 @@ preg_match_all("/http:\/\/img\.(.*?)\" /smi",$contents,$match);
 		$x++;
  
 		//resize to a ration where the image will fit in the frame
-		if ($size[0]/$size[1]>1.33){
+		if ($size[0]/$size[1]>1.50){
 			//resize to width
 			$ratio = 720/$size[0];			
 		}else{
